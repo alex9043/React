@@ -1,0 +1,45 @@
+@font-face {
+    font-family: CS; /* Имя шрифта */
+    src: url(comic.ttf); /* Путь к файлу со шрифтом */
+}
+body{
+    background: rgb(255,253,235);
+    background: linear-gradient(90deg, rgba(255,253,235,1) 0%, rgba(255,211,107,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.list{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item{
+    width: 98px;
+    height: 46px;
+    margin-right: 50px;
+    border-width: 1px;
+    border-color:#e5e5e5;
+    font-size: 14px;
+}
+
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    width: 32%;
+}
+
+.active{
+    width: 180px;
+    height: 100px;
+    background:greenyellow;
+    color: magenta;
+    border-radius: 100px/50px;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 4s;
+    font-family: CS;
+}
